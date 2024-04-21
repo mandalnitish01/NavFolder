@@ -4,14 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Nav from './Components/Nav'
 import card from './CardComponents/card'
+import Mentor from './MentoeComp/Mentor'
 
 
 
 function App() {
   return (
     <>
-    <Nav LogoName="VNC" />
-    <card/>
+    <Nav LogoName="VNC" /> 
+    <Mentor UserName="Nitish" Qualifications="Frontend Dev@google"/> 
+    <Mentor UserName="Nitish" Qualifications="Frontend Dev@google"/> 
+    <Mentor UserName="Nitish" Qualifications="Frontend Dev@google"/> 
     </>
   )
 }
